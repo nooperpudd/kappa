@@ -11,7 +11,7 @@ except ImportError:
 
 
 def open_file(fname):
-    return codecs.open(os.path.join(os.path.dirname(__file__), fname), encoding="utf=8")
+    return codecs.open(os.path.join(os.path.dirname(__file__), fname), encoding="utf-8")
 
 
 def run_setup():
